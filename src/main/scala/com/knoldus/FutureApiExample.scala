@@ -12,5 +12,5 @@ object FutureApiExample extends App {
         if(file.isFile) print(file.getPath+" | ") else Future{directoryPrinter(file.getPath)}
       }
     }
-    directoryPrinter("/home/knoldus/Music")
+    directoryPrinter("/home/knoldus/Documents/scala-future-assignment/AllFolders")
 }
